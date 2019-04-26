@@ -3,6 +3,6 @@
     <!-- Andi -->
     <remote name="andi" fetch="https://github.com/andi34" />
     
-    <project path="kernel/ti/omap4_andi" name="android_kernel_ti_omap4" revision="commits/3.0" remote="andi" />
+    <project path="kernel/ti/omap4_andi" name="android_kernel_ti_omap4" revision="3.0/common" remote="andi" />
     
 </manifest>
