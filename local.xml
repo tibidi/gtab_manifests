@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
+    <remove-project name="Unlegacy-Android/android_kernel_ti_omap4" />
+    
     <!-- Andi -->
     <remote name="andi" fetch="https://github.com/andi34" />
     
-    <project path="kernel/ti/omap4_andi" name="android_kernel_ti_omap4" revision="3.0/common" remote="andi" />
+    <!--project path="kernel/ti/omap4_andi" name="android_kernel_ti_omap4" revision="3.0/common" remote="andi" /-->
     
     <project path="kernel/ti/omap4_andi_oc" name="android_kernel_ti_omap4" revision="3.0/common-oc" remote="andi" />
     
